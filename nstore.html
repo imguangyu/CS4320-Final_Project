@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Wei's Gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+<link href="https://file.myfontastic.com/GrB9xuxQmbqKaaajF4NftS/icons.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script src="js/typed.js" type="text/javascript"></script>
+  <!-- <script src="js/main.js" type="text/javascript"></script> -->
+  <script src="https://unpkg.com/vue"></script>
+<script src="nstore.js" type="text/javascript"></script>
+  <!-- <script>
+  $( function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+  } );
+  </script>
+     <script>
+              $( function() {
+                $( "#sortable1" ).sortable();
+                $( "#sortable1" ).disableSelection();
+              } );
+  </script> -->
+
+
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+
+      p.Desc{
+          text-align: center;
+          font-family: 'Comfortaa', cursive;
+      }
+
+    /* Remove the jumbotron's default bottom margin */
+     .jumbotron {
+      margin-bottom: 0;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+
+      background-color: #f2f2f2;
+        text-align: center;
+
+        font-family: 'Comfortaa', cursive;
+      padding: 25px;
+    }
+      body, html {
+    height: 100%;
+   background-color: whitesmoke;
+}
+
+
+  </style>
+</head>
+<body>
+    
+<script src="https://cdn.jsdelivr.net/npm/vue.js"></script>
+    <!--HEADER -->
+    <div class="header">
+      <div class="for-sticky">
+        <!--LOGO-->
+        <div class="col-md-2 col-xs-6 logo">
+          <a href="index.html"><img alt="logo" class="logo-nav" src="images/ow.jpg"></a>
+        </div>
+        <!--/.LOGO END-->
+
+      </div>
+      
+
+      <div class="menu-wrap">
+        <nav class="menu">
+          <div class="menu-list">
+            <a  href="index.html" >
+              <span>Home</span>
+            </a>
+            <a  href="about.html">
+              <span>About</span>
+            </a>
+           <a  href="store.html" class="active">
+              <span>Online Store</span>
+              </a>
+            <a  href="contact.html">
+              <span>Contact</span>
+            </a>
+              <a  href="login.html">
+              <span class="icon-sign-in">Log in</span>
+            </a>
+          </div>
+        </nav>
+        <button class="close-button" id="close-button">Close Menu</button>
+      </div>
+      <button class="menu-button" id="open-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button><!--/.for-sticky-->
+    </div>
+    <!--/.HEADER END-->
+
+    
+<br><br><br>
+    <form action="" method="post">
+<div class="container">
+  <div class="row" id="sortable">
+    <div id="one">
+        <item></item>
+    </div>
+  </div>
+</div>
+<br><br>
+        </form>
+        
+        
+
+<footer class="container-fluid text-center">
+  <p>Han Song & Wei Luo</p>
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
+
+<div id="app">
+        {{ message }}
+      </div>
+
+
+</body>
+</html>
